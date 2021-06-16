@@ -4,6 +4,7 @@ $color-two: #33d9b2;
 $color-three: #ff5252;
 $dark-background-font: #ffffff;
 $light-background-font: #2c2c54;
+$transition: all 1s;
 
 body {
   font-family: "Inconsolata", monospace;
@@ -17,6 +18,40 @@ body {
   max-width: 1140px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-color: inherit;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: $transition;
+}
+
+.btn:hover {
+  background-position: 0 100%;
+  color: $color-one;
+}
+
+.btn-one {
+  border-color: $dark-background-font;
+  color: $dark-background-font;
+  background-image: linear-gradient(
+    90deg,
+    $dark-background-font,
+    50%,
+    transparent 50%
+  );
 }
 
 /*Navigation*/
