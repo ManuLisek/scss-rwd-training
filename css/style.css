@@ -134,4 +134,65 @@ a:hover {
 .page-title span {
   font-family: "Signika", sans-serif;
 }
+
+/*Our services*/
+.wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.box {
+  -ms-flex: 0 0 33.333%;
+      flex: 0 0 33.333%;
+  position: relative;
+}
+
+.number {
+  position: absolute;
+  color: #33d9b2;
+  font-size: 144px;
+  font-family: "Signika", sans-serif;
+  opacity: 0.3;
+  line-height: 1;
+  top: 0;
+  z-index: -1;
+}
+
+.bold-paragraph {
+  font-weight: bold;
+}
+
+.btn-two {
+  color: #33d9b2;
+  border-color: #33d9b2;
+  background-image: linear-gradient(90deg, #33d9b2 50%, transparent 50%);
+}
+
+.btn-two:hover {
+  color: #ffffff;
+}
+
+.btn-three {
+  color: #ff5252;
+  border-color: #ff5252;
+  background-image: linear-gradient(90deg, #ff5252 50%, transparent 50%);
+}
+
+.btn-three:hover {
+  color: #ffffff;
+}
+
+.btn-four {
+  color: #0097e6;
+  border-color: #0097e6;
+  background-image: linear-gradient(90deg, #0097e6 50%, transparent 50%);
+}
+
+.btn-four:hover {
+  color: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
