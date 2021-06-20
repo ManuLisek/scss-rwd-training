@@ -202,3 +202,54 @@ a:hover {
 .btn-four:hover {
   color: $dark-background-font;
 }
+
+/*Our work*/
+.box-work {
+  flex: 0 0 50%;
+  min-height: 300px;
+  max-width: 100%;
+  position: relative;
+  margin: 10px 0 50px 0;
+  padding: 0;
+}
+
+.photo {
+  max-width: 250px;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.photo > img {
+  width: 100%;
+  height: 100%;
+}
+
+.photo-description {
+  text-align: left;
+  padding: 0 5% 0 60%;
+}
+
+.bold-paragraph {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.photo-description p {
+  margin: 0;
+}
+
+.btn-five {
+  display: inline-block;
+  margin: 36px 0;
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: $transition;
+}
+
+.btn-five:hover {
+  color: $color-two;
+}
