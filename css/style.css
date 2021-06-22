@@ -215,9 +215,29 @@ a:hover {
   left: 0;
 }
 
+.photo:after {
+  content: " ";
+  position: absolute;
+  height: 100%;
+  top: 20px;
+  left: 20px;
+  right: -20px;
+  opacity: 0.3;
+  background-color: #33d9b2;
+  transition: 1s ease-in-out;
+}
+
+.photo:hover:after {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .photo > img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .photo-description {
