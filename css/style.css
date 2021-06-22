@@ -1,4 +1,10 @@
 /*Variables*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Inconsolata", monospace;
   margin: 0;
@@ -266,5 +272,51 @@ a:hover {
 
 .btn-five:hover {
   color: #33d9b2;
+}
+
+/*Form*/
+.contact {
+  background-color: #0097e6;
+  color: #ffffff;
+  padding: 96px 0;
+}
+
+.form {
+  -ms-flex: 2 0 0px;
+      flex: 2 0 0;
+  padding-right: 20px;
+  width: 280px;
+}
+
+.contact-details {
+  -ms-flex: 1 0 0px;
+      flex: 1 0 0;
+}
+
+.contact-field {
+  background: inherit;
+  color: inherit;
+  padding: 10px;
+  width: 100%;
+  border: 0;
+  border-bottom: 3px solid #ffffff;
+}
+
+.contact-field-textarea {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.contact-field:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.contact-field::placeholder {
+  color: #ffffff;
+}
+
+.contact-subtitles {
+  font-size: 20px;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
