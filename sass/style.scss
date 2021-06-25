@@ -323,3 +323,41 @@ a:hover {
   font-size: 20px;
   margin: 0;
 }
+
+/*Footer*/
+.page-footer {
+  background-color: $dark-background-font;
+  padding: 96px 0;
+  position: relative;
+}
+
+.page-footer ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.page-footer li {
+  font-size: 0;
+  display: inline-block;
+  transition: 0.5s ease-in-out;
+}
+
+.icon-social {
+  font-size: 30px;
+  background-color: $color-three;
+  color: $dark-background-font;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+}
+
+.page-footer a {
+  text-decoration: none;
+}
+
+.page-footer li:hover {
+  transform: scale(1.2);
+}
